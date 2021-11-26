@@ -1,0 +1,49 @@
+# ask for first integer
+# save string, converted to integer
+# ask for second integer
+# save string, converted to integer
+# sum the two numbers
+# print the result
+
+START
+
+GET first integer
+SET int1 = user input, converted to integer
+GET second integer
+SET int2 = user input, converted to integer
+PRINT sum
+
+END
+
+-----------------------------------------
+
+# get array of string
+# initialize new empty string
+# for each element in array, add to the empty string
+# return string
+
+START
+
+GET array
+SET string = ''
+SET i = 0
+WHILE i < length of array 
+    SET string += string at index integer
+    i += 1
+RETURN STRING 
+END
+
+-------------------------------------------
+
+# get array
+# iterate through, incrementing by 2
+
+START
+GET array
+SET new array = []
+SET i = 0
+WHILE i < array length
+    SET append element to new array
+    i += 2
+RETURN new array
+END
